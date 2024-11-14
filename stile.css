@@ -1,0 +1,57 @@
+/* Resetando estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container do catálogo */
+.catalogo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Estilo dos carros */
+.carro {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito de hover nos carros */
+.carro:hover {
+    transform: translateY(-10px);
+}
+
+/* Imagens dos carros */
+.carro img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Nome do carro */
+.carro h3 {
+    font:100
+}
